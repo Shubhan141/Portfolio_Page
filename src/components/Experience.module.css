@@ -29,7 +29,7 @@
     margin-bottom: 10px;
     width: 100%;
     max-width: 600px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(164, 21, 21, 0.1);
   }
   
   .experienceItem h3 {
@@ -43,7 +43,7 @@
   
   .skillList {
     list-style-type: none;
-    padding: 0;
+    padding: 0px;
   }
   
   .skillItem {
@@ -54,5 +54,6 @@
     margin: 5px 0;
     display: inline-block;
     color: #007bff;
+    margin: 0px 5px;
   }
   
