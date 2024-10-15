@@ -1,0 +1,104 @@
+.infoContainer {
+    background-color: white; /* Formal white background */
+    height: auto; /* Adjust height to content */
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for fly-over effect */
+    padding: 20px; /* Add some padding */
+    border: 2px solid black;
+    transform: translateY(-1px);
+    box-shadow: 0px 0px 2px 4px white;
+   /* background-color: red; */
+   margin-top: 2rem;
+  
+}
+
+
+.devInfocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.hello {
+    font-size: 4rem; /* Reduced for formal appearance */
+    font-family: "EB Garamond", serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 2.5rem; /* Adjusted for consistency */
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.about {
+    font-size: 1.5rem; /* Formal font size */
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 5px;
+}
+
+.buttons button {
+    font-size: 1.3rem; /* Adjusted button size */
+    padding: 10px 20px; /* Larger padding for better feel */
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: dodgerblue;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add button shadow */
+    transition: all 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.profileImage {
+    border: 2px solid rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 5px rgb(37, 181, 194);
+   
+}
+@media screen and (max-width:1155px){
+    .profileImage{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    box-shadow: 0px 0px 1px 5px rgb(37, 181, 194);
+    }
+}
+@media screen and (max-width:650px){
+    .profileImage{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    box-shadow: 0px 0px 1px 5px rgb(37, 181, 194);
+    }
+}
+
+.moreAbout {
+    border: 2px solid white;
+    font-size: 1.2rem; /* Formal font size */
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgba(240, 240, 240, 0.8); /* Light background for more readability */
+}

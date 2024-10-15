@@ -1,0 +1,71 @@
+.sectionHeading{
+  /* border: 2px solid red; */
+  text-align: center;
+  color: blue;
+}
+.sectionHeading:hover{
+  color: rgb(17, 17, 94);
+}
+.skillsDisplay {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 2px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.skillProgress {
+  width: 10rem;
+  height: 2.5rem;
+  background-color: #e0e0e0;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 6px rgba(191, 28, 28, 0.1);
+  margin: 15px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.skillProgress:hover {
+  transform: scale(1.05);
+  background-color: #d4d4d4;
+}
+
+.eightyPercentParents {
+  width: 85%;
+  height: 100%;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(178, 38, 38, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.skillProgress:nth-child(odd) .eightyPercentParents {
+  background-image: linear-gradient(to right, rgb(103, 103, 223), rgb(86, 41, 78));
+}
+
+.skillProgress:nth-child(even) .eightyPercentParents {
+  background-image: linear-gradient(to right, rgb(33, 33, 36), rgb(86, 41, 78));
+}
+
+.skillName {
+  padding: 0 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

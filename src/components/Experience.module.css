@@ -1,0 +1,58 @@
+.experienceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 70vw;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experienceTitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: blue;
+  }
+  .experienceTitle i{
+    margin-right: 10px;
+  }
+  .experienceTitle:hover{
+    color: rgb(20, 20, 107);
+  }
+  .experienceItem {
+    background-color: #fff;
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experienceItem h3 {
+    margin-top: 0;
+    color: #007bff;
+  }
+  
+  .experienceItem p {
+    margin: 5px 0;
+  }
+  
+  .skillList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skillItem {
+    background-color: #e7f1ff;
+    border: 1px solid #d0e4ff;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 5px 0;
+    display: inline-block;
+    color: #007bff;
+  }
+  
